@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <%- include('../partials/head.ejs') %>
+
+    <!-- to render and display use '=' -->
+    <title>
+      <%= title %>
+    </title>
+</head>
+
+<!-- if we have to render and we dont wanna escape use '-'  -->
+
+<body>
+  <nav>
+    <%- include('../partials/nav.ejs') %>
+  </nav>
+  <div>
+    <h3>Our Products</h3>
+  </div>
+  <div id="app"></div>
+  <%- include('../partials/scripts.ejs') %>
+</body>
+
+</html>

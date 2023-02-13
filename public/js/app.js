@@ -3,14 +3,11 @@ from this react compo we will ajax call to the server and get the data and than 
 */
 
 const App = () => {
-
   const [products, setProducts] = React.useState([]);
-
   const [form, setForm] = React.useState({
     name: '',
     price: ''
   });
-
 
   React.useEffect(() => {
     fecthProducts();
@@ -78,7 +75,6 @@ const App = () => {
 
   return (
     <>
-
       <h1>app from react </h1>
       <div>Add a product</div>
       <div>

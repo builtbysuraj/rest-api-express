@@ -74,7 +74,7 @@ const App = () => {
   //   [field] : e.target.value
   // });
 
-  //  2 way binding is onchange event???
+  //  2 way binding is onchange event and setting value???
 
   return (
     <>
